@@ -1,0 +1,42 @@
+body {
+    background-color: white;
+}
+
+header {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 15vh;
+    left: 0;
+    top: 0;
+}
+
+nav {
+    width: 55%;
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 7vw;
+}
+
+.logo {
+    position: relative;
+    margin-left: 5vw;
+    height: 6vh;
+}
+
+.picked-nav {
+    background-color: #219EBC;
+    padding: 10px;
+    height: 4vh;
+    border-radius: 14px;
+}
+
+.unpicked-nav {
+    padding: 10px;
+    height: 4vh;
+    border-radius: 14px;
+}
