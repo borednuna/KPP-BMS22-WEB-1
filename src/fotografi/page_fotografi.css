@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 body {
     background-color: white;
@@ -49,6 +50,9 @@ h2 {
 
 .picked-nav {
     background-color: #219EBC;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3vw;
     padding: 0.55rem;
     height: 4vh;
     border-radius: 14px;
@@ -57,21 +61,29 @@ h2 {
 
 .picked-nav:hover {
     background-color: #219EBC;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
     padding: 0.7rem;
     height: 4vh;
     border-radius: 0.9rem;
 }
 
 .unpicked-nav {
-    padding: 0.1rem;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3vw;
+    padding: 0.55rem;
     height: 4vh;
-    border-radius: 0.9rem;
+    border-radius: 14px;
     transition: all 0.5s ease;
 }
 
 .unpicked-nav:hover {
     background-color: #ececec;
-    padding: 0.6rem;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.7rem;
     height: 4vh;
     border-radius: 0.9rem;
 }
@@ -104,6 +116,18 @@ h2 {
     background-color: #FFB703;
     width:fit-content;
     padding: 0.8rem;
+    border-radius: 2.2rem;
+    box-shadow: 0.4rem 0.3rem 0.5rem #FFDB83;
+    transition: all 0.5s ease;
+}
+
+.readnow:hover {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2vw;
+    color: #ffffff;
+    background-color: #219EBC;
+    width:fit-content;
+    padding: 1rem;
     border-radius: 2.2rem;
     box-shadow: 0.4rem 0.3rem 0.5rem #FFDB83;
 }
