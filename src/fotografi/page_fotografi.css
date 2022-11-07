@@ -40,3 +40,10 @@ nav {
     height: 4vh;
     border-radius: 14px;
 }
+
+.unpicked-nav:hover {
+    background-color: #219EBC;
+    padding: 10px;
+    height: 4vh;
+    border-radius: 14px;
+}
