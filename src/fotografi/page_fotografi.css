@@ -49,9 +49,17 @@ h2 {
 
 .picked-nav {
     background-color: #219EBC;
-    padding: 0.6rem;
+    padding: 0.55rem;
     height: 4vh;
     border-radius: 14px;
+    transition: all 0.5s ease;
+}
+
+.picked-nav:hover {
+    background-color: #219EBC;
+    padding: 0.7rem;
+    height: 4vh;
+    border-radius: 0.9rem;
 }
 
 .unpicked-nav {
