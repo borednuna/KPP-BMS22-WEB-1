@@ -3,6 +3,9 @@
 
 body {
     background-color: white;
+    position: absolute;
+    width: 100.4%;
+    left: -1vw;
 }
 
 header {
@@ -15,7 +18,9 @@ header {
 }
 
 section {
+    position: relative;
     width: 100%;
+    left: 0;
     height: 100vh;
     display: flex;
 }
@@ -110,13 +115,13 @@ h2 {
 }
 
 /* Section 1 */
-.section1 {
+.section-abstract {
     width: inherit;
     height: inherit;
     align-items: center;
 }
 
-.section1_img {
+.section-abstract_img {
     margin-right: 7rem;
     position:absolute;
     display: flex;
@@ -155,7 +160,7 @@ h2 {
 }
 
 /* Section 2 */
-.section2 {
+.section-definition {
     position: absolute;
     left: 0;
     width: 100%;
@@ -163,7 +168,7 @@ h2 {
     background-image: linear-gradient(#ffffff, #219EBC);
 }
 
-.section2-img {
+.section-definition-img {
     margin-top: -8vh;
     position: absolute;
     height: 105vh;
@@ -174,4 +179,71 @@ h2 {
     position: absolute;
     width: 50%;
     margin-top: 14vh;
+}
+
+/* Section 3 */
+.section-camera {
+    width: inherit;
+    height: inherit;
+    display: flex;
+}
+
+.kamera-definition {
+    margin-left: 5vw;
+    margin-top: 13vh;
+}
+
+.section-camera-explanation {
+    margin-top: 11vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4vw;
+    color: #000000;
+    position: absolute;
+    width: 45vw;
+}
+
+.section-camera-element1 {
+    z-index: -2;
+    position: absolute;
+    width: 5vw;
+    margin-top: -3vh;
+    left: 15vw;
+}
+
+.section-camera-img {
+    margin-top: -10vh;
+    position: inherit;
+    height: 130vh;
+}
+
+.section3-element2 {
+    position: absolute;
+    right: 0;
+    margin-top: -15vh;
+    height: 40vh;
+}
+
+/* Section 4 */
+.section-angle {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: linear-gradient(#ffffff, #219EBC);
+}
+
+.section4-img {
+    position: absolute;
+    display: flex;
+    height: 100vh;
+    margin-left: 4rem;
+    margin-top: 10rem;
+}
+
+.angle-explanation {
+    position: absolute;
+    display: flex;
+    width: 63%;
+    right: 0;
+    margin-top: 15vh;
+    justify-content: center;
 }
