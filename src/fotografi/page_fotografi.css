@@ -52,7 +52,7 @@ h2 {
     display: flex;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     background-color: #219EBC;
     border-radius: 0.45rem;
     padding: 0.7rem;
@@ -246,4 +246,91 @@ h2 {
     right: 0;
     margin-top: 15vh;
     justify-content: center;
+}
+
+/* Section 5 */
+.section-komposisi {
+    height: 185vh;
+    width: 100%;
+}
+
+.komposisi-explanation {
+    margin-top: 45vh;
+    margin-left: 11vw;
+    width: 100%;
+}
+
+.komposisi-element1 {
+    position: absolute;
+    display: flex;
+    width: 8vw;
+    margin-left: 10vw;
+    margin-top: -11vh;
+}
+
+.komposisi-examples {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    margin-top: 65vh;
+    align-items: center;
+}
+
+.card {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.card-img {
+    position: relative;
+    padding: 1rem;
+    width: 27vw;
+}
+
+.card-details {
+    height: 70vh;
+}
+
+.card-text {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 1.7vw;
+    z-index: 1;
+    bottom: 3vh;
+    left: 3vw;
+}
+
+.sec5-element1 {
+    position: absolute;
+    width: 10vw;
+    margin-top: 70vh;
+    right: 0;
+    z-index: -1;
+}
+
+.sec5-element2 {
+    position:absolute;
+    margin-top: -78vh;
+    margin-left: 4vw;
+}
+
+/* Section 6 */
+.quote {
+    margin: auto;
+    width: 70vw;
+    height: 40vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+    color: #000000;
+    text-align: center;
+}
+
+.section6-element {
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
