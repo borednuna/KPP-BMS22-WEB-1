@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: white;
     position: absolute;
@@ -141,7 +145,7 @@ h2 {
     font-size: 1.2vw;
     color: #ffffff;
     background-color: #FFB703;
-    width:fit-content;
+    width: 1rem;
     padding: 0.8rem;
     border-radius: 2.2rem;
     box-shadow: 0.4rem 0.3rem 0.5rem #FFDB83;
