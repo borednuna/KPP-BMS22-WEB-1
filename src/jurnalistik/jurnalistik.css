@@ -41,7 +41,7 @@ header nav {
 
 
 .picked-nav {
-    background-color: #219EBC;
+    background-color: #CE7D7D;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-size: 1.3vw;
@@ -52,7 +52,7 @@ header nav {
 }
 
 .picked-nav:hover {
-    background-color: #219EBC;
+    background-color: #CE7D7D;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
     padding: 0.7rem;
@@ -112,7 +112,7 @@ section {
     margin-top: -1rem;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5vw;
-    color: #219EBC;
+    color: #CE7D7D;
 }
 
 .readnow {
@@ -131,7 +131,7 @@ section {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2vw;
     color: #ffffff;
-    background-color: #219EBC;
+    background-color: #CE7D7D;
     width:fit-content;
     padding: 1rem;
     border-radius: 2.2rem;
@@ -304,6 +304,67 @@ section {
 .section-teknik_reportase {
     width: inherit;
     height: inherit;
+    margin-top: 110vh;
+    position: relative;
+    align-items: center;
+    background-color: #fbf2f2;
 }
 
+.section-teknik_reportase-desc-title{
+    width: 100%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    text-align: center;
+}
 
+.section-teknik_reportase-desc-title h2{
+    margin-top: -1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5vw;
+    color: #000000;
+}
+
+.section-teknik_reportase-desc-title p {
+    margin-top: 5vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 0.05vw;
+    color: #000000;
+}
+
+.kiri-kanan {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+}
+
+.kiri-kanan div {
+    margin-left: 20vh;
+    margin-right: 20h;
+    position: absolute;
+}
+
+#kanan {
+    right: 10vh;
+}
+
+#bawah {
+    margin-left: 80vh;
+    margin-top: 40vh;
+    display: 10vh;
+}
+
+.section-teknik_reportase-desc h2{
+    margin-top: -1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    color: #000000;
+}
+
+.section-teknik_reportase-desc p {
+    margin-top: 5vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+    font-weight: 0.05vw;
+    color: #000000;
+}
