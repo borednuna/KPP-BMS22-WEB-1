@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,400&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    position: absolute;
+    width: 100.4%;
+    left: -1vw;
+    animation: fadeInAnimation ease 0.75s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 15vh;
+}
+
+nav {
+    width: 55%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 7vw;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    left: 0;
+    height: 100vh;
+    display: flex;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFB703;
+    font-size: 4.3vw;
+}
+
+h2 {
+    margin-top: -1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5vw;
+    color: #219EBC;
+}
+
+/* Navigation Bar */
+.logo {
+    position: relative;
+    margin-left: 8vw;
+    height: 6vh;
+}
+
+.picked-nav {
+    background-color: #219EBC;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3vw;
+    padding: 0.55rem;
+    height: 4vh;
+    border-radius: 14px;
+    transition: all 0.5s ease;
+}
+
+.picked-nav:hover {
+    background-color: #219EBC;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.7rem;
+    height: 4vh;
+    border-radius: 0.9rem;
+}
+
+.unpicked-nav {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3vw;
+    padding: 0.55rem;
+    height: 4vh;
+    border-radius: 14px;
+    transition: all 0.5s ease;
+}
+
+.unpicked-nav:hover {
+    background-color: #ececec;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.7rem;
+    height: 4vh;
+    border-radius: 0.9rem;
+}
+
+/* Section 1 */
+.section-abstract {
+    width: inherit;
+    height: inherit;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.section-abstract_img {
+    margin-right: 7rem;
+    position: absolute;
+    display: flex;
+    height: 79vh;
+    right: 0;
+}
+
+.abstract {
+    position: absolute;
+    width: 40%;
+    margin-left: 8vw;
+    margin-top: 16vh;
+}
+
+.readnow {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2vw;
+    color: #ffffff;
+    background-color: #FFB703;
+    width: 1rem;
+    padding: 0.8rem;
+    border-radius: 2.2rem;
+    box-shadow: 0.4rem 0.3rem 0.5rem #FFDB83;
+    transition: all 0.5s ease;
+}
+
+.readnow:hover {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2vw;
+    color: #ffffff;
+    background-color: #219EBC;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 2.2rem;
+    box-shadow: 0.4rem 0.3rem 0.5rem #FFDB83;
+}
+
+/* section 2 */
+.section-definition {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: inherit;
+    background-color: #023047;
+
+}
+
+.section-definition-img {
+    margin-top: 15vh;
+    margin-left: 20vh;
+    position: absolute;
+    height: 75vh;
+}
+
+.landing-page-definition {
+    right: 0;
+    position: absolute;
+    width: 50%;
+    margin-top: 14vh;
+}
+
+/* .random-circle {
+    position: absolute;
+    width: 10vw;
+    right: 0;
+} */
+
+.section-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFB703;
+    font-size: 7vw;
+    margin-top: 12vh;
+    margin-right: 35vh;
+    text-align: right;
+}
+
+.section-brief {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 1.6vw;
+    text-align: right;
+    margin-right: 32vh;
+    margin-top: 4vh;
+    font-weight: 400;
+}
+
+/* section 3 */
+.section-important {
+    padding-top: 10vw;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 95vw;
+    background-color: #023047;
+}
+
+.important-title {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFB703;
+    font-size: 4vw;
+    margin-top: 39vw;
+    margin-left: 8vw;
+}
+
+.important-seperation-img {
+    margin-top: 4.1vw;
+    left: 46vw;
+    position: absolute;
+    height: 175vh;
+}
+
+.important-list {
+    position: absolute;
+    right: 0;
+    margin-right: 14vw;
+}
+
+.important-list-title {
+    margin-top: 5.55vw;
+    font-family: 'Poppins', sans-serif;
+    color: #2196F3;
+    font-size: 1.8vw;
+    font-weight: 400;
+}
+
+.important-list-point {
+    margin-top: 1vw;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 1.6vw;
+    font-weight: 400;
+}
+
+#i-l-t-2 {
+    margin-top: 6.5vw;
+}
+
+#i-l-t-3 {
+    margin-top: 5.3vw;
+}
+
+#i-l-t-4 {
+    margin-top: 5.4vw;
+}
+
+#i-l-t-5 {
+    margin-top: 6.15vw;
+}
+
+.color-transition {
+    width: 100%;
+    height: 20vw;
+    background-image: linear-gradient(#023047, #FFFFFF);
+    margin-top: 55vw;
+}
+
+/* section 4*/
+
+.selection-prinsip {
+    position: absolute;
+    left: 0;
+    margin-top: 75vw;
+    width: 100%;
+    height: 20vw;
+    background-color: #ffffff;
+}
+
+.prinsip-title {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    color: #023047;
+    font-size: 4vw;
+    margin-left: 8vw;
+}
+
+.prinsip-seperation-img {
+    height: 150vh;
+    margin-top: 16vw;
+    margin-left: 5vw;
+    position: absolute;
+}
+
+.prinsip-left-list {
+    position: absolute;
+    margin-top: 12vw;
+    margin-left: 12vw;
+}
+
+.prinsip-right-list {
+    position: absolute;
+    right: 0;
+    margin-top: 12vw;
+    margin-right: 8.3vw;
+}
+
+.prinsip-list-title {
+    margin-top: 5.55vw;
+    font-family: 'Poppins', sans-serif;
+    color: #2196F3;
+    font-size: 1.8vw;
+    font-weight: 400;
+}
+
+.prinsip-list-point {
+    margin-top: 1vw;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 1.6vw;
+    font-weight: 400;
+}
+
+#p-l-l-2 {
+    margin-top: 9vw;
+}
+
+#p-l-l-3 {
+    margin-top: 6.6vw;
+}
+
+#p-l-l-4 {
+    margin-top: 9.7vw;
+}
+
+#p-l-l-6 {
+    margin-top: 6.3vw;
+}
+
+#p-l-l-7 {
+    margin-top: 6.5vw;
+}
+
+#p-l-l-8 {
+    margin-top: 7vw;
+}
