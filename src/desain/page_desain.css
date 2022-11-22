@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-color: white;
+    background-color: #023047;
     position: absolute;
     width: 100.4%;
     left: -1vw;
@@ -16,12 +16,14 @@ body {
 }
 
 header {
+    margin-top: -1vw;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     height: 15vh;
+    background-color: white;
 }
 
 nav {
@@ -31,6 +33,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin-right: 7vw;
+    background-color: white;
 }
 
 section {
@@ -113,7 +116,9 @@ h2 {
     margin-right: 7rem;
     position: absolute;
     display: flex;
-    height: 79vh;
+    /* height: 79vh; */
+    width: 40%;
+    height: 80%;
     right: 0;
 }
 
@@ -161,7 +166,8 @@ h2 {
     margin-top: 15vh;
     margin-left: 20vh;
     position: absolute;
-    height: 75vh;
+    height: 75%;
+    width: 30%;
 }
 
 .landing-page-definition {
@@ -219,7 +225,7 @@ h2 {
     margin-top: 4.1vw;
     left: 46vw;
     position: absolute;
-    height: 175vh;
+    height: 81%;
 }
 
 .important-list {
@@ -274,7 +280,7 @@ h2 {
     left: 0;
     margin-top: 75vw;
     width: 100%;
-    height: 20vw;
+    height: 100vw;
     background-color: #ffffff;
 }
 
@@ -287,7 +293,8 @@ h2 {
 }
 
 .prinsip-seperation-img {
-    height: 150vh;
+    width: 60%;
+    height: 73%;
     margin-top: 16vw;
     margin-left: 5vw;
     position: absolute;
