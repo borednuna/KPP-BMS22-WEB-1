@@ -159,6 +159,11 @@ h2 {
     width: 100%;
     height: inherit;
     background-color: #023047;
+    background-image: url("../../public/assets_desain/circle-landing-page.svg");
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: 100% 20%;
+    background-size: 40% 40%;
 
 }
 
@@ -210,6 +215,11 @@ h2 {
     width: 100%;
     height: 95vw;
     background-color: #023047;
+    background-image: url("../../public/assets_desain/circle-landing-page.svg");
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: -10% 40%;
+    background-size: 30% 30%;
 }
 
 .important-title {
@@ -271,6 +281,7 @@ h2 {
     height: 20vw;
     background-image: linear-gradient(#023047, #FFFFFF);
     margin-top: 55vw;
+
 }
 
 /* section 4*/
@@ -282,6 +293,12 @@ h2 {
     width: 100%;
     height: 100vw;
     background-color: #ffffff;
+    background-image: url("../../public/assets_desain/circle-prinsip-things.svg");
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: 100% 100%;
+    background-size: 20% 20%;
+
 }
 
 .prinsip-title {
