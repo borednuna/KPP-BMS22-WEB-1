@@ -1,7 +1,8 @@
 # KPP-BMS22-WEB-1
 Repository for web project Basic Media Schooling 2022
 
-#Team 1
+Team 1
+```
 Article
 - Kartika Diva A
 - Sarah Nurhasna K
@@ -18,3 +19,4 @@ Web Development
 - Hanun Shaka P
 - Afiq Fawwaz Haidar
 - Java Kanaya P
+```
