@@ -6,6 +6,10 @@ html {
     text-decoration: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     background-color: #023047;
     position: absolute;
