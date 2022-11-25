@@ -242,7 +242,7 @@ section {
 
 .section-kode_etik {
     width: inherit;
-    height: inherit;
+    height: 100vh;
     background-color: #219EBC;; 
 }
 
@@ -321,7 +321,7 @@ section {
     margin-top: 110vh;
     position: relative;
     align-items: center;
-    background-color: #fbf2f2;
+    background-color: #d7edf3;
 }
 
 .section-teknik_reportase-desc-title{
